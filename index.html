@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- tag(pink) <...> open tag </...> close tag -->
-<!-- head content is sth that you dont wanna see in web but important as font file, title, script   -->
   <head>
     
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=BBH+Sans+Bartle&family=Bungee&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   </head>
   
-<!-- tip: "put inside..." mean put in between... -->
-<!--  all text that you wanna see in the web put inside body part  -->
-  
   <body>
-<!--   always start with "h" and getting smaller (go down)  -->
-    <h1>This is the big header </h1>
-<!--   attributes class allow to see it in css   -->
-    <h1 class="copyheader">This is a copy of the big header </h1>
-
-    <h2>This is slightly smaller head </h2>
-<!--   paragraph   -->
-    <p>gkcgkkhgchgihjgihnmpgohjdothjogmb;cggofjhohjg;oh</p>
-    <p>gkcgkkhgchgihjgihnmpgohjdothjogmb;
-<!--   italic     -->
-      <i>
-<!--     bold     -->
-        <b>
-          cggof
-        </b>
-          
-        </i>
-      jhohjg;oh
-    </p>
     
-<!-- attributes (black) are always ="something" (green)    -->
-    <a href="http://bbc.com" target="_blank">CLICK ME</a>
-<!--   <a href="insert url here" target="_blank (mean open in another tap as it other people web)">CLICK ME (order to show on web)</a>   -->
-  
-<!--  unorder list with bullet points  -->
     <ul>
-      <li>List item1</li>
-      <li>List item2</li>
-      <li>List item3</li>
+      
+      <li onmouseover="hover(this,1)" 
+          onmouseleave="leave()">
+        <a href="project1.html">Project 1</a>
+        <img src="Project 1/1.jpg">
+
+      </li>
+      
+     
+      <li onmouseover="hover(this,3)" onmouseleave="leave()">
+        Project 2
+        <img src="Project 1/2.jpg">
+
+      </li>
+      
+      
+      <li onmouseover="hover(this,4)" onmouseleave="leave()">
+        Project 3
+        <img src="Project 1/3.jpg">
+
+      </li>
+      
+      <li onmouseover="hover(this,5)" onmouseleave="leave()">
+        Project 4
+        <img src="Project 1/4.jpg">
+
+      </li>
       
     </ul>
-<!--  order list with numbers  -->
-  <ol>
-      <li>List item1</li>
-      <li>List item2</li>
-      <li>List item3</li>
-      
-    </ol>
-  
-<!--  upload file first > copy file name > put between <img scr="...">    -->
-  <img src="pexels-kellie-churchman-371878-1001682.jpg">
-<!--dont have to put closing one    -->
-   
-  
-  
+    <a class="footer" href="https://www.instagram.com/j_j_b_t_t?igsh=cW9saXZraXEzZ2Vv&utm_source=qr" target="_blank">contact</a>
+    
+    <script src="main.js"></script>
+    
   </body>
   
 </html>
